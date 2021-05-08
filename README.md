@@ -29,7 +29,7 @@ Open a browser to your own installation of Apache or XAMPP and point to the `pub
 
 If you get an error:
 
-> The stream or file "...laravel/app/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+> The stream or file "...laravel/app/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied.
 
 ```
 # Make the storage dir writable by the web server
