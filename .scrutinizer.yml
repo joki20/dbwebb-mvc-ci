@@ -13,6 +13,7 @@ build:
         coverage:
             tests:
                 override:
+                    - true
                     - command: "make phpunit"
                     - command: "php artisan migrate"
                       coverage:
