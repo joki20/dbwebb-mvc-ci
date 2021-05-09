@@ -10,14 +10,13 @@ namespace Joki20\Http\Controllers\Dice;
  */
 class Dice
 {
-    protected ?int $sides;
+    protected int $sides;
     private ?int $lastRoll;
 
     // constructor
-    public function __construct(int $sides = 6, int $lastRoll = null)
+    public function __construct(int $sides = 6)
     {
         $this->sides = $sides;
-        $this->lastRoll = $lastRoll;
     }
 
     // roll dice
