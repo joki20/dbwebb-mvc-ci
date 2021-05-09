@@ -49,7 +49,6 @@ class Game21CreateObjectTest extends TestCase
         $_POST["status"] = "Something irrelevant";
         $res = $game->game21();
         $exp = $game->chooseNrOfDice();
-        var_dump($exp);
         $this->assertEquals($res, $exp);
     }
 

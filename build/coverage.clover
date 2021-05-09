@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620572048">
-  <project timestamp="1620572048">
+<coverage generated="1620575197">
+  <project timestamp="1620575197">
     <file name="C:\cygwin64\home\johan\dbwebb-kurser\mvc\me\ci\config\app.php">
       <line num="16" type="stmt" count="6"/>
       <line num="29" type="stmt" count="6"/>
