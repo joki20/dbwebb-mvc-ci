@@ -256,14 +256,14 @@ class Yatzy extends DiceHand
          session()->put('sum', session('sum') + session('bonus'));
 
          // if end of game, add points to highscore table
-        // if (session('timesScored') == 6) {
-        //     // create Highscore instance
-        //     $highscores = new Highscore();
-        //     // insert score
-        //     $highscores->score = session('sum');
-        //     // save to db
-        //     $highscores->save();
-        // }
+        if (session('timesScored') == 6) {
+            // create Highscore instance
+            $highscores = new Highscore();
+            // insert score
+            $highscores->score = session('sum');
+            // save to db
+            $highscores->save();
+        }
 
          return '
                  <br>
