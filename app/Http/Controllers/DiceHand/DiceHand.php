@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Joki20\Http\Controllers\DiceHand;
 
 use Joki20\Http\Controllers\Dice\Dice;
-use Joki\Http\Controllers\GraphicalDice\GraphicalDice;
+use Joki20\Http\Controllers\GraphicalDice\GraphicalDice;
 
 /**
  * Class Dice.
