@@ -1,5 +1,11 @@
 [![Build Status](https://travis-ci.com/joki20/dbwebb-mvc-ci.svg?branch=master)](https://travis-ci.com/joki20/dbwebb-mvc-ci)
 
+[![Build Status](https://scrutinizer-ci.com/g/joki20/dbwebb-mvc-ci/badges/build.png?b=master)](https://scrutinizer-ci.com/g/joki20/dbwebb-mvc-ci/build-status/master)
+
+[![Code Coverage](https://scrutinizer-ci.com/g/joki20/dbwebb-mvc-ci/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/joki20/dbwebb-mvc-ci/?branch=master)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/joki20/dbwebb-mvc-ci/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/joki20/dbwebb-mvc-ci/?branch=master)
+
 Integrera ditt repo med Travis och Scrutinizer
 ===============================
 
