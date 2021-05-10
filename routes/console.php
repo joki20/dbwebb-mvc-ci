@@ -20,7 +20,7 @@ Artisan::command('inspire', function () {
 
 
 if ('production' === App::environment()) {
-    Artisan::command('migrate:fresh', function () {
+    Artisan::command('migrate', function () {
         $this->comment('You are not allowed to do this in production!');
     })->describe('Override default command in production.');
 }
